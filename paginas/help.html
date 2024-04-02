@@ -1,33 +1,44 @@
 <!DOCTYPE html>
-<html lang>
-    <style>
-        *{
-          margin:0;
-          padding:0;
-          box-sizing: border-box;
-        }
-        #cabecalho h1{
-          text-align: center;
-          color: aliceblue;
-          background-color: black;
-          padding: 20px 0;
-          box-shadow:4x 3x 5x #f00;
-          border-radius: 5px;
-          font-size: 64px;
-        }
-        #cabecalho nav{
-          margin:15px 0;
-        
-        }
-        #cabecalho ul{
-          list-style: none;
-        }
-        #cabecalho li{
-          display: inline-block;
-        }
-        #cabecalho li img {
-          display: block;
-          width: 30%;
-          min-width: 10%;
-        }
-      </style>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HELP</title>
+
+    <link rel="stylesheet" href="../css/estilo-help.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- O container é uma div que serve como contêiner geral para todo o conteúdo da página. -->
+      <header class="cabecalho">
+        <h1>HELP</h1>
+        <nav id="menu">
+          <ul>
+            <li class="link">
+              <a href="../paginas/about.html">
+                <img src="../img/about.png" alt="Letra i em um circulo." />
+              </a>
+            </li>
+            <li class="link">
+              <a href="../index.html">
+                <img src="../img/home.png" alt="icone casa." />
+              </a>
+            </li>
+            <li class="link">
+              <a href="../index.html#contact">
+                <img src="../img/contact.png" alt="Envelope de carta." />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="conteudo-help">
+        <figure>
+          <img src="../img/hand-792920_640.jpg" alt="Mão com texto help." />
+          <figcaption>Toda ajuda é bem vinda!</figcaption>
+        </figure>
+      </section>
+    </div>
+  </body>
+</html>

@@ -11,40 +11,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width:device-width,initial-scale=1.0" />
     <title>Página Básica</title>
-    <style>
-      *{
-        margin:0;
-        padding:0;
-        box-sizing: border-box;
-      }
-      #cabecalho h1{
-        text-align: center;
-        color: aliceblue;
-        background-color: black;
-        padding: 20px 0;
-        box-shadow:4x 3x 5x #f00;
-        border-radius: 5px;
-        font-size: 64px;
-      }
-      #cabecalho nav{
-        margin:15px 0;
-      
-      }
-      #cabecalho ul{
-        list-style: none;
-      }
-      #cabecalho li{
-        display: inline-block;
-      }
-      #cabecalho li img {
-        display: block;
-        width: 30%;
-        min-width: 10%;
-      }
-    </style>
-
-    
-
+    <link rel="stylesheet" href="./css/estilo.css" />
   </head>
   <!-- segundo filho do html = body -->
   <body>
@@ -53,13 +20,27 @@
       <header id="cabecalho">
         <nav>
           <h1>Minha Página</h1>
-           <ul>
-<li><a href="./paginas/help.html"> <img src="./img/help.png" alt="Caixa de texto com uma Interrogação."/></a></li>
-<li><a href="./paginas/about.html"> <img src="./img/about.png" alt="Letra i em um circulo." /></a></li>
-<li><a href="#contact"> <img src="./img/contact.png" alt="Envelope de carta." /> </a></li>
-        </ul>
+          <ul>
+            <li>
+              <a href="./paginas/help.html">
+                <img
+                  src="./img/help.png"
+                  alt="Caixa de texto com uma Interrogação."
+              /></a>
+            </li>
+            <li>
+              <a href="./paginas/about.html">
+                <img src="./img/about.png" alt="Letra i em um circulo."
+              /></a>
+            </li>
+            <li>
+              <a href="#contact">
+                <img src="./img/contact.png" alt="Envelope de carta." />
+              </a>
+            </li>
+          </ul>
         </nav>
-      </header> 
+      </header>
 
       <hr />
 
